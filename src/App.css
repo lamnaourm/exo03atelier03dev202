@@ -1,4 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .biblio {
+    width: fit-content;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.livre {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.livre img {
+    width: 100%;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1{
+    margin: 0;
+    padding: 0;
 }
