@@ -3,12 +3,12 @@ import Image from './Image'
 import Titre from './Titre'
 import Prix from './Prix'
 
-export default function Livre({url, titre, prix}) {
-  return (
-    <div>
-        <Image image={url} titre={titre}/>
-        <Titre titre={titre}/>
-        <Prix prix={prix}/>
-    </div>
-  )
+export default function Livre({ url, titre, prix }) {
+    return (
+        <div>
+            <Image image={url} titre={titre} />
+            <Titre titre={titre} />
+            <Prix prix={prix} />
+        </div>
+    )
 }
